@@ -13,6 +13,8 @@ class FizzBuzz {
     }
 
     private static int doFizzBuzz(int i) {
+
+
         boolean divisibleby3 = i % 3 == 0;
         boolean divisibleby5 = i % 5 == 0;
         if (divisibleby3 && divisibleby5) {

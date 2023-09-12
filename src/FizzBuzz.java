@@ -12,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
 
 
         boolean divisibleby3 = i % 3 == 0;
